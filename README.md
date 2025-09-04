@@ -54,13 +54,24 @@ This work is available on ArXiv\! 📄
 ### 📌 BibTeX
 
 ```bibtex
-@misc{adhya2025s2wtm,
-    title={S2WTM: Spherical Sliced-Wasserstein Autoencoder for Topic Modeling},
-    author={Suman Adhya and Debarshi Kumar Sanyal},
-    year={2025},
-    eprint={2507.12451},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{adhya-sanyal-2025-s2wtm,
+    title = "{S}2{WTM}: {S}pherical {S}liced-{W}asserstein {A}utoencoder for {T}opic {M}odeling",
+    author = "Adhya, Suman  and
+      Sanyal, Debarshi Kumar",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1131/",
+    doi = "10.18653/v1/2025.acl-long.1131",
+    pages = "23211--23225",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Modeling latent representations in a hyperspherical space has proven effective for capturing directional similarities in high-dimensional text data, benefiting topic modeling. Variational autoencoder-based neural topic models (VAE-NTMs) commonly adopt the von Mises-Fisher prior to encode hyperspherical structure. However, VAE-NTMs often suffer from posterior collapse, where the KL divergence term in the objective function highly diminishes, leading to ineffective latent representations. To mitigate this issue while modeling hyperspherical structure in the latent space, we propose the Spherical Sliced Wasserstein Autoencoder for Topic Modeling (S2WTM). S2WTM employs a prior distribution supported on the unit hypersphere and leverages the Spherical Sliced-Wasserstein distance to align the aggregated posterior distribution with the prior. Experimental results demonstrate that S2WTM outperforms state-of-the-art topic models, generating more coherent and diverse topics while improving performance on downstream tasks."
 }
 ```
 
